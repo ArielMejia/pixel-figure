@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background-color: #f00;
+}
+
+.soft-red{
+   background-color: #fd4747; 
+}
+
+.black{
+    background-color: #000000;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(19, minmax(20px,30px));
+    grid-template-rows: repeat(19, minmax(20px,30px));
+    justify-content: center;
+    align-content: center;
+    height:100vh;
+}
+
+.fill-top-1{
+    grid-column: 6 / 15;
+    grid-row: 2 / 4;
+}
+
+.fill-top-2{
+    grid-column: 4 / 17;
+    grid-row: 4 / 6;
+}
+
+.fill-top-3{
+    grid-column: 2 / 19;
+    grid-row: 6 / 11;
+}
+
+.fill-top-4{
+    grid-column: 5 / 8;
+    grid-row: 11 / 12;
+}
+
+.fill-top-5{
+    grid-column: 13 / 16;
+    grid-row: 11 / 12;
+}
+
+.fill-soft-1{
+    grid-column: 9 / 11;
+    grid-row: 3 / 4;
+}
+
+.fill-soft-2{
+    grid-column: 7 / 12;
+    grid-row: 4 / 5;
+}
+
+.fill-soft-3{
+    grid-column: 6 / 10;
+    grid-row: 5 / 6;
+}
+
+
+.fill-soft-4{
+    grid-column: 5 / 8;
+    grid-row: 6 / 7;
+}
+
+.fill-soft-5{
+    grid-column: 5 / 6;
+    grid-row: 7 / 8;
+}
+
+.fill-soft-6{
+    grid-column: 4 / 5;
+    grid-row: 8 / 9;
+}
+
+
+
+.perimeter-1{
+    grid-column: 1 / 2;
+    grid-row: 8 / 13;
+}
+
+.perimeter-2{
+    grid-column: 2 / 3;
+    grid-row: 6 / 8;
+}
+
+.perimeter-3{
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+}
+
+.perimeter-4{
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+}
+
+.perimeter-5{
+    grid-column: 6 / 8;
+    grid-row: 2 / 3;
+}
+
+.perimeter-6{
+    grid-column: 8 / 13;
+    grid-row: 1 / 2;
+}
+
+.perimeter-7{
+    grid-column: 13 / 15;
+    grid-row: 2 / 3;
+}
+
+.perimeter-8{
+    grid-column: 15 / 17;
+    grid-row: 3 / 4;
+}
+
+.perimeter-9{
+    grid-column: 17 / 18;
+    grid-row: 4 / 6;
+}
+
+.perimeter-10{
+    grid-column: 18 / 19;
+    grid-row: 6 / 8;
+}
+
+.perimeter-11{
+    grid-column: 19 / 20;
+    grid-row: 8 / 13;
+}
+
+.perimeter-12{
+    grid-column: 18 / 19;
+    grid-row: 13 / 15;
+}
+
+.perimeter-13{
+    grid-column: 17 / 18;
+    grid-row: 15 / 17;
+}
+
+.perimeter-14{
+    grid-column: 15 / 17;
+    grid-row: 17 / 18;
+}
+
+.perimeter-15{
+    grid-column: 13 / 15;
+    grid-row: 18 / 19;
+}
+
+.perimeter-16{
+    grid-column: 8 / 13;
+    grid-row: 19 / 20;
+}
+
+.perimeter-17{
+    grid-column: 6 / 8;
+    grid-row: 18 / 19;
+}
+
+.perimeter-18{
+    grid-column: 4 / 6;
+    grid-row: 17 / 18;
+}
+
+.perimeter-19{
+    grid-column: 3 / 4;
+    grid-row: 15 / 17;
+}
+
+.perimeter-20{
+    grid-column: 2 / 3;
+    grid-row: 13 / 15;
+}
+
+.middle-1{
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+}
+
+.middle-2{
+    grid-column: 3 / 5;
+    grid-row: 11 / 12;
+}
+
+.middle-3{
+    grid-column: 5 / 8;
+    grid-row: 12 / 13;
+}
+
+.middle-4{
+    grid-column: 8 / 9;
+    grid-row: 11 / 14;
+}
+
+.middle-5{
+    grid-column: 9 / 12;
+    grid-row: 10 / 11;
+}
+
+.middle-6{
+    grid-column: 9 / 12;
+    grid-row: 14 / 15;
+}
+
+.middle-7{
+    grid-column: 12 / 13;
+    grid-row: 11 / 14;
+}
+
+.middle-8{
+    grid-column: 13 / 16;
+    grid-row: 12 / 13;
+}
+
+.middle-9{
+    grid-column: 16 / 18;
+    grid-row: 11 / 12;
+}
+
+.middle-10{
+    grid-column: 18 / 19;
+    grid-row: 10 / 11;
+}
